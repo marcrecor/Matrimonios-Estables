@@ -26,7 +26,7 @@ def leer(fichero, t):
 def hospitales(R,H,c,n,m):
     """
     la función hospitales resuelve el problema de los hospitales y los
-    residentes, mediante el algoritmo de Roth-Peranson.
+    residentes, mediante el algoritmo de Gale-Shapley.
 
     ENTRADA:
     --------
