@@ -165,7 +165,7 @@ def eliminarrot(rot,H):
 
 if __name__ == '__main__':
     if len(sys.argv) < 1:
-        print('La entrada debe ser: python3 me.py personas.txt')
+        print('La entrada debe ser: python3 habitaciones.py personas.txt')
     else:
         fichero = sys.argv[1]
 
