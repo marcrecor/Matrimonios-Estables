@@ -1,3 +1,5 @@
+import sys
+
 #leer las listas
 def leer(fichero):
     with open(fichero, 'r') as f:
@@ -134,5 +136,5 @@ if __name__ == '__main__':
 
         n, H, M = leer(fichero)
 
-        parejas = indiferencia(M,H,nH)
+        parejas = indiferencia(M,H,n)
         print(f'El emparejamiento obtenido es: {parejas}')
