@@ -77,6 +77,7 @@ if __name__ == '__main__':
         nM, M = leer(ficheroM)
 
         if nH == nM:
-            matrimonios_estables(M,H,nH)
+            parejas = matrimonios_estables(M,H,nH)
+            print(f'El emparejamiento obtenido es: {parejas}')
         else:
             print('Datos incorrectos')
