@@ -1,3 +1,5 @@
+import sys
+
 #leer las listas
 def leer(fichero):
     with open(fichero, 'r') as f:
