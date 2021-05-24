@@ -45,6 +45,7 @@ def convergido(P,n_genes,tam):
         j+=1
     return b
 
+#elitismo
 def maximo(L):
     m = 0
     elem = L[0]
@@ -58,9 +59,6 @@ def maximo(L):
                 elem = L[i]
     return m, elem
 
-
-
-#elitismo
 def nMinimos(L,n):
     M=list(range(n))
     N=L[:n]
