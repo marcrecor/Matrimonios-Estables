@@ -12,7 +12,7 @@ def leer(fichero):
         for i in range(num_pers):
             lista[i] = lista[i].split()
             for j in range(len(lista[i])):
-                lista[i][j] = int(lista[i][j]) - 1
+                lista[i][j] = int(lista[i][j])
 
     return num_pers, lista
 
