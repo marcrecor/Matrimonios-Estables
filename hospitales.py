@@ -111,7 +111,7 @@ def rpeor(ranhos,res):
 
 if __name__ == '__main__':
     if len(sys.argv) < 2:
-        print('La entrada debe ser: python3 me.py residentes.txt hospitales.txt')
+        print('La entrada debe ser: python3 hospitales.py residentes.txt hospitales.txt')
     else:
         ficheroR = sys.argv[1]
         ficheroH = sys.argv[2]
