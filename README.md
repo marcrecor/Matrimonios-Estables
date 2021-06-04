@@ -43,6 +43,10 @@ Este fichero resuelve el problema de los matrimonios estables con indiferencias 
 
 Este fichero resuelve el problema de los matrimonios estables que se quiere minimizar la felicidad equitativa por sexos mediante un algoritmo genético. Los datos de las listas de los hombres y las mujeres deben pasarse como unos ficheros que sean un parámetro al ejecutar el script. Estos ficheros deben tener la siguiente estructura: su primera línea debe ser el número de personas y las líneas siguientes deben ser cada una la lista de una persona. Cada lista debe contener los números del 0 al (número de personas -1), sin repeticiones.
 
+8.- listas
+----------
+Esta carpeta contiene dos ficheros para crear las listas para los problemas me y meii. Se debe indicar el nombre del fichero y el número de personas.
+
 Autor
 =====
 Marta Crespo Cordero, marcre05@ucm.es
